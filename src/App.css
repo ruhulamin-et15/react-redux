@@ -1,0 +1,27 @@
+section{
+    display: grid;
+    grid-gap: 0.5rem;
+    padding: 2rem;
+}
+
+article{
+    background-color: #415499;
+    color: white;
+    padding: 0.5rem;
+}
+
+@media (min-width:600px) {
+    section{
+        grid-template-columns: auto auto;
+    }
+}
+@media (min-width:768px) {
+    section{
+        grid-template-columns: auto auto auto;
+    }
+}
+@media (min-width:992px) {
+    section{
+        grid-template-columns: auto auto auto auto;
+    }
+}
